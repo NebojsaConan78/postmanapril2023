@@ -1,0 +1,70 @@
+{
+	"info": {
+		"_postman_id": "40228db5-f553-4d08-9e67-934a93086661",
+		"name": "LibraryTesting",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27077668",
+		"_collection_link": "https://warped-firefly-186250.postman.co/workspace/April2023APITesting~c2def3ac-3280-4279-b77f-aa414efb958d/collection/27077668-40228db5-f553-4d08-9e67-934a93086661?action=share&creator=27077668&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "update book checkout status",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"drugi test\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "key",
+				"value": "api-key",
+				"type": "string"
+			},
+			{
+				"key": "value",
+				"value": "postmanrulz",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
